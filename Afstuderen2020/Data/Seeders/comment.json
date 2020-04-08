@@ -1,0 +1,27 @@
+[
+	{
+		"Id": 0,
+		"Name": "Ted",
+		"Email": "tedmosby@mosbyarchitects.com",
+		"Message": "Everyone comes with baggage. Find someone who loves you enough to help you unpack."
+	},
+	{
+		"Id": 0,
+		"Name": "Barney",
+		"Email": "bstinson@gnb.com",
+		"Message": "It's going to be legen-- wait for it-- and I hope you're not lactose intolerant, because the second half of the word is-- dary! Legendary!"
+	},
+	{
+		"Id": 0,
+		"Name": "Robin",
+		"Email": "robinscherbatsky@comeongetupnewyork.com",
+		"Message": "Well, You're One-Quarter Canadian, So By That Logic You One-Quarter Suck."
+	},
+	{
+		"Id": 0,
+		"Name": "Marshall",
+		"Email": "meriksen@gnb.com",
+		"Message": "The Only Person Who Loves Ted Mosby More Than Marshall Eriksen, Is Drunk Marshall Eriksen!"
+	}
+
+]

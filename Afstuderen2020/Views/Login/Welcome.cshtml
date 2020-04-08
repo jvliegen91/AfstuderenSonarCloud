@@ -1,0 +1,52 @@
+﻿
+@{
+    ViewData["Title"] = "Welcome";
+}
+
+<section class="content-section-welcome text-white text-center" id="login">
+    <div class="container">
+        <div class="content-section-heading">
+            <h3 class="text-primary mb-0">Gegevens</h3>
+            <h2 class="mb-5">@ViewBag.FirstName @ViewBag.LastName</h2>
+        </div>
+        <div class="content-section-userpicture">
+            <img src="~/img/Users/@(ViewBag.PictureId).jpg" />
+        </div>
+        
+        <div class="content-section-userinfo">
+            <table>
+                <tr>
+                    <th scope="col">Gebruikersnaam:</th>
+                    <th scope="col">@ViewBag.UserName</th>
+                </tr>
+                <tr>
+                    <th scope="col">Voornaam:</th>
+                    <th scope="col">@ViewBag.FirstName</th>
+                </tr>
+                <tr>
+                    <th scope="col">Achternaam:</th>
+                    <th scope="col">@ViewBag.LastName</th>
+                </tr>
+                <tr>
+                    <th scope="col">Adres:</th>
+                    <th scope="col">@ViewBag.Address @ViewBag.HouseNumber @ViewBag.HouseNumberAddition</th>
+                </tr>
+                <tr>
+                    <th scope="col">Woonplaats:</th>
+                    <th scope="col">@ViewBag.Residence</th>
+                </tr>
+                <tr>
+                    <th scope="col">Telefoonnummer:</th>
+                    <th scope="col">@ViewBag.PhoneNumber</th>
+                </tr>
+                <tr>
+                    <th scope="col">Email:</th>
+                    <th scope="col">@ViewBag.Email</th>
+                </tr>
+            </table>
+        </div>
+
+        <div><a class="btn btn-dark btn-xl js-scroll-trigger" href="@Url.Action("LogOut", "Login")">Uitloggen</a></div>
+    </div>
+</section>
+

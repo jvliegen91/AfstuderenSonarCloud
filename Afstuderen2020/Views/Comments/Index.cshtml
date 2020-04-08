@@ -1,0 +1,66 @@
+﻿@model IEnumerable<Comment>
+@{
+    ViewData["Title"] = "Index";
+}
+<header class="masthead-login">
+    <div class="container text-center my-auto">
+        <h1 class="mb-1">SQL Injection</h1>
+        <h3 class="mb-5">
+            <em>A Free Bootstrap Theme by Start Bootstrap</em>
+        </h3>
+        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#login">Naar login</a>
+    </div>
+    <div class="overlay"></div>
+</header>
+
+<section class="content-section bg-primary text-white text-center" id="login">
+    <div class="container">
+        <div class="content-section-heading">
+            <h3 class="text-secondary mb-0">Gebruikers</h3>
+            <h2 class="mb-5">Login</h2>
+            <p>@ViewBag.Id</p>
+        </div>
+        <div>
+            <form>
+                <p><h2>Zoeken:</h2> <input type="text" name="SearchComment" class="form-control" /></p> 
+            </form>
+        </div>
+        <div>
+            <h4>Zoekresultaten voor "@Html.Raw(Context.Request.Query["SearchComment"])"</h4>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <table class="table table-hover">
+                    <thead class="text-secondary">
+                        <tr>
+                            <th scope="col">Naam</th>
+                            <th scope="col">Email</th>
+                            <th scope="col">Bericht</th>
+                        </tr>
+                    </thead>
+                    @if (Model.Count() == 0)
+                    {
+                        <tbody>
+                            <tr>
+                                <td colspan="3">
+                                    Er zijn geen berichten gevonden die voldoen aan de zoekopdracht.
+                                </td>
+                            </tr>
+                        </tbody>
+                    }
+                    <tbody>
+                        @foreach (var comment in Model)
+                        {
+                            <tr class="text-white">
+                                <td>@comment.Name</td>
+                                <td>@comment.Email</td>
+                                <td>@comment.Message</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+

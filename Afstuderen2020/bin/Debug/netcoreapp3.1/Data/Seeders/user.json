@@ -1,0 +1,61 @@
+[
+  {
+    "Id": 0,
+    "UserName": "Shelly",
+    "Password": "TheFlash1!",
+    "FirstName": "Sheldon",
+    "LastName": "Cooper",
+    "Address": "2311 North Robles Avenue",
+    "HouseNumber": "4",
+    "HouseNumberAddition": "A",
+    "Residence": "Pasadena",
+    "PhoneNumber": "409-356-6049",
+    "Email": "s.cooperphd@yahoo.com",
+    "PictureId": "User1",
+    "Role": "Administrator"
+  },
+  {
+    "Id": 0,
+    "UserName": "LeonardH",
+    "Password": "Test123!",
+    "FirstName": "Leonard",
+    "LastName": "Hofstadter",
+    "Address": "2311 North Robles Avenue",
+    "HouseNumber": "4",
+    "HouseNumberAddition": "A",
+    "Residence": "Pasadena",
+    "PhoneNumber": "328-555-0177",
+    "Email": "leonardhofstadter@caltech.com",
+    "PictureId": "User2",
+    "Role": "User"
+  },
+  {
+    "Id": 0,
+    "UserName": "IndianGod",
+    "Password": "password",
+    "FirstName": "Rajesh",
+    "LastName": "Koothrappali",
+    "Address": "Marengo Avenue",
+    "HouseNumber": "3",
+    "HouseNumberAddition": "D",
+    "Residence": "Glendale",
+    "PhoneNumber": "346-555-0183",
+    "Email": "rajeshkoothrappali@jio.india",
+    "PictureId": "User3",
+    "Role": "User"
+  },
+  {
+    "Id": 0,
+    "UserName": "FrootLoops",
+    "Password": "ivebeeninspace",
+    "FirstName": "Howard",
+    "LastName": "Wolowitz",
+    "Address": "Grand Avenue",
+    "HouseNumber": "892",
+    "Residence": "Altadena",
+    "PhoneNumber": "273-555-0189",
+    "Email": "hwolowitz@nasa.com",
+    "PictureId": "User4",
+    "Role": "User"
+  }
+]

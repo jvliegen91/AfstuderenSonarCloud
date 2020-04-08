@@ -1,0 +1,5 @@
+{
+	"ConnectionStrings": {
+		"Afstuderen2020ConnectionString":  "server=(localdb)\\Database;Database=Afstuderen2020Db;Integrated Security=true;MultipleActiveResultSets=true;"
+	}
+}
